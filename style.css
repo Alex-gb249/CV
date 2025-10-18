@@ -3,9 +3,14 @@
   margin: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .content {
-  width: 1000px;
-  margin: 3rem auto;
+  max-width: 1000px;
+  margin: 3rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
